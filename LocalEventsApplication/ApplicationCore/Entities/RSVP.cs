@@ -11,10 +11,10 @@ namespace ApplicationCore.Entities
     public class RSVP
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [ForeignKey("User")]
-        public int UserID { get; set; }
+        public int UserId { get; set; }
 
         public virtual User User { get; set; }
 

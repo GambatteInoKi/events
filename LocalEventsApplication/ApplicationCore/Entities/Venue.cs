@@ -10,7 +10,7 @@ namespace ApplicationCore.Entities
     public class Venue
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string VenueName { get; set; }

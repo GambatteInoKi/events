@@ -11,13 +11,13 @@ namespace ApplicationCore.Entities
     public class Feedback
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
-        public int UserID { get; set; }
+        public int UserId { get; set; }
 
         public User User { get; set; }
 
-        public int EventID { get; set; }
+        public int EventId { get; set; }
 
         public Event Event { get; set; }
 

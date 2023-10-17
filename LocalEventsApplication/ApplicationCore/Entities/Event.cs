@@ -11,7 +11,7 @@ namespace ApplicationCore.Entities
     public class Event
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string Title { get; set; }
@@ -20,7 +20,7 @@ namespace ApplicationCore.Entities
         public string Description { get; set; }
 
         [ForeignKey("Category")]
-        public int CategoryID { get; set; }
+        public int CategoryId { get; set; }
 
         public Category Category { get; set; }
 
@@ -28,12 +28,12 @@ namespace ApplicationCore.Entities
         public DateTime DateAndTime { get; set; }
 
         [ForeignKey("Venue")]
-        public int VenueID { get; set; }
+        public int VenueId { get; set; }
 
         public virtual Venue Venue { get; set; }
 
         [ForeignKey("User")]
-        public int OrganizerID { get; set; }
+        public int OrganizerId { get; set; }
 
         public virtual User Organizer { get; set; }
 

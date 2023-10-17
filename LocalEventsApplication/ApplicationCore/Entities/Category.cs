@@ -10,7 +10,7 @@ namespace ApplicationCore.Entities
     public class Category
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [Required]
         public string CategoryName { get; set; }

@@ -11,10 +11,10 @@ namespace ApplicationCore.Entities
     public class ChatMessage
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         [ForeignKey("Sender")]
-        public int SenderID { get; set; }
+        public int SenderId { get; set; }
         public virtual User Sender { get; set; }
 
         [ForeignKey("Receiver")]
@@ -22,7 +22,7 @@ namespace ApplicationCore.Entities
         public virtual User Receiver { get; set; }
 
         [ForeignKey("Event")]
-        public int EventID { get; set; }  // This can be nullable if you want to allow messages not linked to specific events.
+        public int EventId { get; set; }  // This can be nullable if you want to allow messages not linked to specific events.
         public virtual Event Event { get; set; }
 
         [Required]
