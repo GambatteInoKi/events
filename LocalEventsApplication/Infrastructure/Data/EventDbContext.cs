@@ -28,11 +28,12 @@ namespace Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ChatMessage>(ConfigureChatMessage);
+            modelBuilder.Entity<Feedback>(ConfigureFeedback);
         }
         private void ConfigureChatMessage(EntityTypeBuilder<ChatMessage> builder)
         {
-            builder.HasKey(f => new { f.SenderID, f.ReceiverID });
-
+            // builder.HasKey(f => new { f.SenderID, f.ReceiverID });
+            builder.HasKey(f => new { f.Id });
             builder
                 .HasOne(e => e.Receiver)
                 .WithMany()
@@ -41,8 +42,24 @@ namespace Infrastructure.Data
             builder
                 .HasOne(e => e.Sender)
                 .WithMany()
-                .HasForeignKey(e => e.SenderID)
+                .HasForeignKey(e => e.SenderId)
                 .OnDelete(DeleteBehavior.Restrict);
+        }
+
+        private void ConfigureFeedback(EntityTypeBuilder<Feedback> builder)
+        {
+            builder.HasKey(f => new { f.Id });
+
+            builder
+                .HasOne(e => e.User)
+                .WithMany()
+                .HasForeignKey(e => e.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+            builder
+                .HasOne(e => e.Event)
+                .WithMany()
+                .HasForeignKey(e => e.EventId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
     }
 }
