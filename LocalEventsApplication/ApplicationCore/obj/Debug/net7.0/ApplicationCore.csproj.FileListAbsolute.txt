@@ -10,3 +10,14 @@ C:\Users\InhoK\Documents\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0
 C:\Users\InhoK\Documents\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\InhoK\Documents\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\InhoK\Documents\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+C:\Users\qqw152\Downloads\events-master\events-master\LocalEventsApplication\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

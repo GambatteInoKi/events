@@ -38,7 +38,7 @@ namespace ApplicationCore.Entities
         public virtual User Organizer { get; set; }
 
         // Navigation properties
-        public virtual ICollection<RSVP> Attendees { get; set; }
+        public virtual ICollection<RSVP> RSVPs { get; set; }
         public virtual ICollection<Feedback> Reviews { get; set; }
     }
 }

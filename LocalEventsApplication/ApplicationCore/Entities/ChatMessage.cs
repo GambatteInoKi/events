@@ -18,7 +18,7 @@ namespace ApplicationCore.Entities
         public virtual User Sender { get; set; }
 
         [ForeignKey("Receiver")]
-        public int ReceiverID { get; set; }
+        public int ReceiverId { get; set; }
         public virtual User Receiver { get; set; }
 
         [ForeignKey("Event")]

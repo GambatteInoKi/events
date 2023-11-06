@@ -10,14 +10,15 @@ namespace ApplicationCore.Entities
 {
     public class Feedback
     {
-        [Key]
         public int Id { get; set; }
 
-        public int UserId { get; set; }
+        [ForeignKey("User")]
+        public int AuthorId { get; set; }
 
         public User User { get; set; }
 
-        public int EventId { get; set; }
+        [ForeignKey("Event")]
+        public int EventFeedbackId { get; set; }
 
         public Event Event { get; set; }
 
