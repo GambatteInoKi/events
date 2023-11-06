@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj": {}
+    "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\InhoK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\qqw152\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\InhoK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\qqw152\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,25 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\InhoK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\qqw152\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\InhoK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\qqw152\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,15 +77,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -144,25 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj": {
+    "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj",
+        "projectUniqueName": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj",
         "projectName": "LocalEventsApplication",
-        "projectPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj",
-        "packagesPath": "C:\\Users\\InhoK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\LocalEventsApplication\\obj\\",
+        "projectPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\LocalEventsApplication\\LocalEventsApplication.csproj",
+        "packagesPath": "C:\\Users\\qqw152\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\LocalEventsApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\InhoK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\qqw152\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,16 +156,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\InhoK\\Documents\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\qqw152\\Downloads\\events-master\\events-master\\LocalEventsApplication\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -240,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
